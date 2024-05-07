@@ -1,6 +1,6 @@
 module.exports = {
   repositoryUrl: "https://github.com/sashaduke/test.git",
-  branches: ["main", "master"],
+  branches: ["main"],
   plugins: [
     [
       "@semantic-release/commit-analyzer",
