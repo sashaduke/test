@@ -28,8 +28,7 @@ module.exports = {
           { type: "chore!", release: "major" }
         ],
         parserOpts: {
-          headerPattern: "^\\s*(\\w+)(?:\\((.*)\\))?\\s*(!)?\\s*:",
-          breakingHeaderPattern: "^\\s*(\\w+)!\\s*:"
+          headerPattern: "^\\s*(\\w+)(\\(.*\\))?!:\\s*(.*)"
         }
       }
     ],
